@@ -8,7 +8,8 @@ defmodule Handoff.Application do
   def start(_type, _args) do
     # List all child processes to be supervised
     children = [
-      Handoff.Local
+      Handoff.Local,
+      Handoff.Global,
       # Starts a worker by calling: Handoff.Worker.start_link(arg)
       # {Handoff.Worker, arg},
     ]
