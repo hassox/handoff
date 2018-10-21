@@ -2,6 +2,8 @@
 
 Handoff state between processes.
 
+*Note* This is an experiment. Use at your own risk
+
 Initially developed for cluster global processes to handoff state when one process dies and the other
 is stated on another unknown node. Specifically when performing rolling deploys on Kubernetes using Horde.
 
